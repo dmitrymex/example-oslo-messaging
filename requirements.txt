@@ -1,0 +1,4 @@
+oslo.config
+oslo.log
+oslo.messaging>=1.8.3
+

@@ -1,0 +1,11 @@
+Example oslo.messaging server + client
+======================================
+
+virtualenv venv
+
+venv/bin/pip install -r requirements.txt
+
+<edit client.conf and server.conf>
+
+venv/bin/python example_rpc_server.py --config-file server.conf
+venv/bin/python example_rpc_client.py --config-file client.conf
